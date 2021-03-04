@@ -1,4 +1,4 @@
-# Restuarant Review app built with GraphQL + React
+# Full-Stack Restuarant Review app with live reviews feature, built with GraphQL + React
 
 To build our full-stack app, I've used the below technologies.
 
