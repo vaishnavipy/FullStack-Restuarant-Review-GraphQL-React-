@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #FAF9FA;
+}
+.home{
+  text-align: center;
+  width:80%;
+  max-width: 600px;
+
+  height: 80%;
+}
+.home h1{
+  font-size: 5rem;
+  color:#838285;
+  margin: 0;
+}
+h2{
+  margin: 0;
+  color:#838285;
+}
+input{
+  background-color: white;
+  padding: 1em;
+  outline: none;
+  border: 1px solid grey;
+  width: 60%;
+}
+button{
   color: white;
+  background-color: blue;
+  outline: none;
+ 
+  cursor: pointer;
+  border: none ;
+  font-size:1.2rem;
+  margin: 1em;
+  padding: 0.6em;
 }
-
-.App-link {
-  color: #61dafb;
+.name{
+  text-align: left;
+  border:0.1px solid gray;
+  padding: 1em;
+  border-bottom: none;
+  cursor: pointer;
+  background-color: white;
+  text-transform: capitalize;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.restuarant-container{
+  
+  border-bottom: 1px solid gray;
+}
+span{
+  background-color: skyblue;
+  color: white;
+  padding: 0.2em;
+  margin: 0 1em;
 }
